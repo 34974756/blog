@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>&#39;hexo-next-search插件页面抖动的问题&#39;</title>
+    <title>hexo-next-search插件页面抖动的问题</title>
     <url>/blog/2020/04/24/hexo-next-search%E9%A1%B5%E9%9D%A2%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>hexo-generator-searchdb实现本地搜索功能。安装后发现，点击搜索按钮弹出的modal框会导致页面抖动，之前学习bootstrap时候也遇到了同样的问题，顺便解决一下。</p>
 <h3 id="安装hexo-generator-searchdb"><a href="#安装hexo-generator-searchdb" class="headerlink" title="安装hexo-generator-searchdb"></a>安装hexo-generator-searchdb</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#npm install hexo-generator-searchdb --save</span></span><br></pre></td></tr></table></figure>
