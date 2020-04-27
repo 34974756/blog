@@ -17,4 +17,16 @@
         <category>代码</category>
       </categories>
   </entry>
+  <entry>
+    <title>hexo首页显示文章摘要和阅读全文</title>
+    <url>/blog/2020/04/27/hexo%E9%A6%96%E9%A1%B5%E6%98%BE%E7%A4%BA%E6%96%87%E7%AB%A0%E6%91%98%E8%A6%81%E5%92%8C%E9%98%85%E8%AF%BB%E5%85%A8%E6%96%87/</url>
+    <content><![CDATA[<h2 id="在博客根目录下执行"><a href="#在博客根目录下执行" class="headerlink" title="在博客根目录下执行"></a>在博客根目录下执行</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-excerpt --save</span><br></pre></td></tr></table></figure>
+
+<h2 id="修改-config-yml配置文件"><a href="#修改-config-yml配置文件" class="headerlink" title="修改_config.yml配置文件"></a>修改_config.yml配置文件</h2><h3 id="excerpt-description-改为true"><a href="#excerpt-description-改为true" class="headerlink" title="excerpt_description 改为true"></a>excerpt_description 改为true</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Automatically excerpt description in homepage as preamble text.</span></span><br><span class="line">excerpt_description: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">### 在配置文件_config.yml添加</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96; bash</span><br><span class="line"># _config.yml</span><br><span class="line">  excerpt:</span><br><span class="line">    depth: 10</span><br><span class="line">    excerpt_excludes: []</span><br><span class="line">    more_excludes: []</span><br><span class="line">    hideWholePostExcerpts: true</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>代码</category>
+      </categories>
+  </entry>
 </search>
