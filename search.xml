@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>hexo-next-search插件页面抖动的问题</title>
+    <title>安装hexo-next-search插件</title>
     <url>/blog/2020/04/24/hexo-next-search%E9%A1%B5%E9%9D%A2%E6%8A%96%E5%8A%A8%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<p>hexo-generator-searchdb实现本地搜索功能。安装后发现，点击搜索按钮弹出的modal框会导致页面抖动，之前学习bootstrap时候也遇到了同样的问题，顺便解决一下。</p>
 <h3 id="安装hexo-generator-searchdb"><a href="#安装hexo-generator-searchdb" class="headerlink" title="安装hexo-generator-searchdb"></a>安装hexo-generator-searchdb</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#npm install hexo-generator-searchdb --save</span></span><br></pre></td></tr></table></figure>
@@ -14,7 +14,7 @@
 
 <h4 id="修改main-styl文件"><a href="#修改main-styl文件" class="headerlink" title="修改main.styl文件"></a>修改main.styl文件</h4><figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="comment">/* /theme/next/source/css/main.styl */</span></span><br><span class="line"><span class="comment">// 文末添加 _modal.styl文件</span></span><br><span class="line">@import "_modal.styl";</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>代码</category>
+        <category>前端</category>
       </categories>
   </entry>
   <entry>
@@ -26,7 +26,17 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">### 在配置文件_config.yml添加</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96; bash</span><br><span class="line"># _config.yml</span><br><span class="line">  excerpt:</span><br><span class="line">    depth: 10</span><br><span class="line">    excerpt_excludes: []</span><br><span class="line">    more_excludes: []</span><br><span class="line">    hideWholePostExcerpts: true</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
-        <category>代码</category>
+        <category>前端</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>一些有意思的项目</title>
+    <url>/blog/2020/04/27/%E4%B8%80%E4%BA%9B%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[<h2 id="AzerothCore"><a href="#AzerothCore" class="headerlink" title="AzerothCore"></a>AzerothCore</h2><p>AzerothCore is a complete Open Source and Modular solution for MMO。<br>官网地址: <a href="http://www.azerothcore.org" target="_blank" rel="noopener">http://www.azerothcore.org</a><br>Github: <a href="https://github.com/azerothcore/azerothcore-wotlk/" target="_blank" rel="noopener">https://github.com/azerothcore/azerothcore-wotlk/</a></p>
+<h2 id="Scratch"><a href="#Scratch" class="headerlink" title="Scratch"></a>Scratch</h2><p>Scratch是MIT媒体实验室终生幼儿园小组开发的一个免费项目。使用 Scratch，你可以编写属于你的互动媒体，像是故事、游戏、动画，然后你可以将你的创意分享给全世界。Scratch 帮助年轻人更具创造力、逻辑力、协作力。 这些都是生活在 21 世纪不可或缺的基本能力。<br>Scratch特别为8到16岁孩子设计，但几乎所有年龄的人都在使用它。不同地方上百万人都在制作自己的Scratch项目，包括家庭，学校，博物馆，图书馆和社区中心。<br>计算器编程能力是现今社会文化的组成要素。在 Scratch 学习的过程中，人们也同时获得了解决问题、设计发想、意见交流的重要策略。<br>官网地址: <a href="https://scratch.mit.edu/" target="_blank" rel="noopener">https://scratch.mit.edu/</a></p>
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+      <categories>
+        <category>随笔</category>
       </categories>
   </entry>
 </search>
