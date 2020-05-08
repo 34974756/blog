@@ -30,6 +30,20 @@
       </categories>
   </entry>
   <entry>
+    <title>利用winrar备份重要资料</title>
+    <url>/blog/2020/05/07/%E5%88%A9%E7%94%A8winrar%E5%81%9A%E6%96%87%E4%BB%B6%E5%A4%87%E4%BB%BD/</url>
+    <content><![CDATA[<h2 id="winrar的命令行模式"><a href="#winrar的命令行模式" class="headerlink" title="winrar的命令行模式"></a>winrar的命令行模式</h2><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">WinRAR  &lt;command&gt; -&lt;switch1&gt; -&lt;switchN&gt; &lt;archive&gt; &lt;files&gt; &lt;@listfiles&gt; &lt;path_to_extract\&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h2><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> off</span><br><span class="line"><span class="built_in">echo</span> Backing up ...</span><br><span class="line">"C:\Program Files\WinRAR\WinRAR.exe" a -agYYYYMMDD -ms -x*.jar -ep2 -ibck -t D:\backup\BAK.rar @d:\backup\list.txt</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>a 表示添加指定的文件和文件夹到压缩包中;<br>-ag 参数备份得到的压缩包文件名自动包含当前日期，该参数还可以指定日期格式，如YYYY-MM-DD等;<br>-ms 参数不对已经被压缩过的文件再次压缩;<br>-x 参数忽略指定的文件;<br>-ibck 参数后台运行WinRAR;<br>-ep2 表示当压缩时存储完整的文件路径;<br>@list 备份文件的列表;<br>-p 对备份的文件填加密码;</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>系统</category>
+      </categories>
+  </entry>
+  <entry>
     <title>一些有意思的项目</title>
     <url>/blog/2020/04/27/%E4%B8%80%E4%BA%9B%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E9%A1%B9%E7%9B%AE/</url>
     <content><![CDATA[<h2 id="AzerothCore"><a href="#AzerothCore" class="headerlink" title="AzerothCore"></a>AzerothCore</h2><p>AzerothCore is a complete Open Source and Modular solution for MMO。<br>官网地址: <a href="http://www.azerothcore.org" target="_blank" rel="noopener">http://www.azerothcore.org</a><br>Github: <a href="https://github.com/azerothcore/azerothcore-wotlk/" target="_blank" rel="noopener">https://github.com/azerothcore/azerothcore-wotlk/</a></p>
